@@ -1,13 +1,15 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+.profilePhotoSelect {
+  cursor: pointer;
+  position: relative;
+  overflow: hidden;
 }
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.profilePhotoSelect input {
+  position: absolute;
+  text-indent: -999999px;
+  left: -999px;
+}
+.profilePhotoDefaultPreview {
+  width: 200px;
+  height: 200px;
+  margin: 0 auto;
 }
